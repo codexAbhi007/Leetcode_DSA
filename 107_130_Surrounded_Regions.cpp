@@ -12,7 +12,7 @@ private:
 
         // DFS on neighbors
         dfs(i + 1, j, board, vis);
-        dfs(i - 1, j, board, vis);
+        dfs(i - 1, j, board, vis); 
         dfs(i, j + 1, board, vis);
         dfs(i, j - 1, board, vis);
     }
